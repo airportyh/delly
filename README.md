@@ -46,3 +46,11 @@ var fancy = new FancyDialog
 fancy.show()  // prints "Showing dialog"
 fancy.close() // prints "Closing dialog"
 ```
+
+`show: delegate('dialog', 'show')` is basically a short-hand for
+
+```js
+show: function(){
+  return this.dialog.show.apply(this.dialog, arguments)
+}
+```
