@@ -41,4 +41,8 @@ FancyDialog.prototype = {
   show: delegate('dialog', 'show'),
   close: delegate('dialog', 'close')
 }
+
+var fancy = new FancyDialog
+fancy.show()  // prints "Showing dialog"
+fancy.close() // prints "Closing dialog"
 ```
