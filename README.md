@@ -1,7 +1,7 @@
 Delly
 =====
 
-Simple method delegation helper. Method delegation is an alternative to inheritance. 
+Simple method delegation helper. Method delegation can be used as an alternative to inheritance in some cases. 
 
 ## Install
 
